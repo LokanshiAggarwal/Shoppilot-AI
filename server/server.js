@@ -6,7 +6,7 @@ dns.setServers([
 ]);
 const express = require("express");
 const cors = require("cors");
-require("dotenv").config({ path: "./server/.env" });
+require("dotenv").config();
 
 const connectDB = require("./db");
 
