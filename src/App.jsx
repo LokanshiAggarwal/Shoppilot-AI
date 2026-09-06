@@ -217,7 +217,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/search",
+        "https://shoppilot-ai-k6dz.onrender.com/api/search", 
         {
           method: "POST",
 
@@ -589,7 +589,7 @@ function App() {
       }));
 
       const response = await fetch(
-        "http://localhost:5000/api/orders",
+        "https://shoppilot-ai-k6dz.onrender.com/api/orders", 
         {
           method: "POST",
           headers: {
