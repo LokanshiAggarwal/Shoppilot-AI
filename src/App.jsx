@@ -1067,12 +1067,11 @@ function App() {
                 }
               >
 
-                <div
+               <div
   className="product-detail-grid"
   style={{
     display: "grid",
-    gridTemplateColumns:
-      "minmax(0, 1fr) minmax(0, 1fr)",
+    gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)",
     gap: "60px",
     alignItems: "center",
   }}

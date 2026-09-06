@@ -1401,3 +1401,50 @@ footer p,
     height: 350px !important;
   }
 }
+
+/* Product details responsive fix */
+.product-detail-grid {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .product-detail-grid {
+    grid-template-columns: 1fr !important;
+    gap: 35px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .product-detail-grid {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 30px !important;
+  }
+
+  .product-details {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+    padding: 25px 5% !important;
+  }
+
+  .product-detail-grid > * {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+html,
+body,
+#root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
