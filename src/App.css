@@ -1375,3 +1375,29 @@ footer p,
     height: 350px !important;
   }
 }
+
+.product-detail-grid {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .product-detail-grid {
+    grid-template-columns: 1fr !important;
+    gap: 35px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .product-detail-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+
+  .product-details {
+    padding: 25px 5% !important;
+  }
+
+  .product-details img {
+    height: 350px !important;
+  }
+}
