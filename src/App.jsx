@@ -1068,16 +1068,16 @@ function App() {
               >
 
                 <div
-                  style={{
-                    display:
-                      "grid",
-                    gridTemplateColumns:
-                      "minmax(0, 1.5fr) minmax(300px, 0.8fr)",
-                    gap: "30px",
-                    alignItems:
-                      "start",
-                  }}
-                >
+  className="product-detail-grid"
+  style={{
+    display: "grid",
+    gridTemplateColumns:
+      "minmax(0, 1fr) minmax(0, 1fr)",
+    gap: "60px",
+    alignItems: "center",
+  }}
+>
+                
 
                   {/* =================================================
                       LEFT SIDE
