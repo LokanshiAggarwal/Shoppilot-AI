@@ -1067,13 +1067,15 @@ function App() {
                 }
               >
 
-               <div
+             <div
   className="product-detail-grid"
   style={{
     display: "grid",
     gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)",
     gap: "60px",
     alignItems: "center",
+    width: "100%",
+    minWidth: 0,
   }}
 >
 
@@ -2451,14 +2453,14 @@ function App() {
             {/* PRODUCT */}
 
             <div
+              className="product-detail-grid"
               style={{
-                display:
-                  "grid",
-                gridTemplateColumns:
-                  "minmax(300px, 1fr) minmax(300px, 1fr)",
+                display: "grid",
+                gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1fr)",
                 gap: "60px",
-                alignItems:
-                  "center",
+                alignItems: "center",
+                width: "100%",
+                minWidth: 0,
               }}
             >
 
